@@ -1,0 +1,180 @@
+    @import url('../font/font.css');
+    @import url('./reset.css');
+    body {
+        background: url("../img/bg.jpg"), #fffeea;
+        color: #161512;
+        background-size: cover;
+        filter: alpha(Opacity=70);
+    }
+    
+    .line {
+        width: 100%;
+        height: 2px;
+        margin: 30px 0 30px 0;
+        padding: 0;
+        background-color: #202020;
+    }
+    /* headr */
+    
+    .header {
+        margin-top: 30px;
+    }
+    
+    a {
+        color: #FC817E;
+        text-decoration: none;
+    }
+    
+    .header h1 {
+        font-family: "ChamberiDisplay-Black";
+        font-size: 130px;
+        text-align: center;
+    }
+    
+    .center p {
+        font-family: "ChamberiDisplay-Italic";
+        font-size: 15px;
+        text-align: center;
+    }
+    
+    .center {
+        border-right: 2px solid #202020;
+        border-left: 2px solid #202020;
+    }
+    
+    .left,
+    .right {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        resize: vertical;
+        text-align: left;
+    }
+    
+    .ital_font {
+        font-family: "ChamberiDisplay-Italic";
+        font-size: 15px;
+    }
+    
+    h3 {
+        font-family: "ChamberiDisplay-Black";
+        font-size: 20px;
+    }
+    
+    p {
+        font-family: 'ChamberiDisplay-Regular';
+        text-align: left;
+        margin-top: 3px;
+    }
+    
+    h4 {
+        font-family: 'Oswald-VariableFont_wght';
+        font-weight: bold;
+        font-size: 15px;
+        text-transform: uppercase;
+        text-align: center;
+        border-top: 2px solid #202020;
+        border-bottom: 2px solid #202020;
+        padding: 2px 0 2px 0;
+        margin-bottom: 17px;
+    }
+    
+    .last_news {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        resize: vertical;
+        text-align: left;
+    }
+    
+    .last_news,
+    h3 {
+        text-align: center;
+    }
+    /* main */
+    
+    .main_topic {
+        background: url("../img/tshirts/test_bg.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* text-align: left; */
+        /* background-position: bottom; */
+        overflow: hidden;
+        border: 3px solid black;
+    }
+    
+    .main_topic_text {
+        position: relative;
+        top: 30px;
+        left: 30px;
+        line-height: 55px;
+    }
+    
+    h5 {
+        font-family: 'Oswald-VariableFont_wght';
+        font-weight: bold;
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+    
+    h6 {
+        margin-top: 20px;
+        font-family: "ChamberiDisplay-Black";
+        font-size: 50px;
+    }
+    
+    #main_text {
+        margin-top: 30px;
+        line-height: normal;
+    }
+    
+    #main_topic_img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: 1s;
+    }
+    
+    #main_topic_img:hover {
+        transform: scale(1.2);
+    }
+    /* Смена стиля */
+    
+    input[type="checkbox"] {
+        position: relative;
+        width: 40px;
+        height: 20px;
+        left: calc(50% - 40px / 2);
+        -webkit-appearance: none;
+        outline: none;
+        background: #464646;
+        border-radius: 20px;
+        transition: .5s;
+        box-shadow: inset 0 0 5px rgba(0, 0, 0, .2);
+    }
+    
+    input:checked[type="checkbox"] {
+        background: #d3d3d3;
+    }
+    
+    input[type="checkbox"]:before {
+        content: '';
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        border-radius: 20px;
+        top: 0;
+        left: 0;
+        background: rgb(219, 219, 219);
+        transition: .5s;
+        transform: scale(1.1);
+        box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+    }
+    
+    input:checked[type="checkbox"]:before {
+        left: 20px;
+    }

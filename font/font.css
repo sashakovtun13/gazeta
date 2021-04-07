@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "ChamberiDisplay-Black";
+    src: url("./ChamberiDisplay-Black.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "ChamberiDisplay-Italic";
+    src: url("./ChamberiDisplay-Italic.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "ChamberiDisplay-Regular";
+    src: url("./ChamberiDisplay-Regular.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Oswald-VariableFont_wght";
+    src: url("./Oswald-VariableFont_wght.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
